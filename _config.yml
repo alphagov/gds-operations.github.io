@@ -5,6 +5,7 @@ description: "Open source software from the UK Government Digital Service"
 baseurl: ""
 url: "https://github.com/gds-operations"
 github_org: gds-operations
+twitter_username: gdsteam
 
 # Build settings
 markdown: redcarpet
