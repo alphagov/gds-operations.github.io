@@ -8,4 +8,6 @@ permalink: /projects/
 ## [{{ repo.name }}]({{ repo.html_url }})
 
 {{ repo.description }}
+
+Language: {{ repo.language }}
 {% endfor %}
