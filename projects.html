@@ -9,12 +9,12 @@ permalink: /projects/
 {% for repo in sorted_repos %}
 <h2 class="project-name">{{ repo.name }}</h2>
 
-{{ repo.description }}
 
 <ul class="project-meta">
   <li><span class="meta-keyword">Language:</span> {{ repo.language }}</li>
   <li><span class="meta-keyword">Git clone URL:</span> <code>{{ repo.clone_url }}</code></li>
 </ul>
+<p class="project-description">{{ repo.description }}</p>
 
 <ul class="project-links wrap">
   {% if repo.homepage != nil and repo.homepage != "" %}<li><a href="{{ repo.homepage }}">Visit homepage</a></li>{% endif %}
