@@ -13,6 +13,8 @@ permalink: /projects/
 
 Language: {{ repo.language }}
 
+Git clone URL: `{{ repo.clone_url }}`
+
 {% if repo.homepage != nil and repo.homepage != "" %}* [Visit homepage]({{ repo.homepage }}){% endif %}
 * [Git repository]({{ repo.html_url }})
 {% endfor %}
