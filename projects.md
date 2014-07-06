@@ -7,9 +7,12 @@ permalink: /projects/
 {% assign sorted_repos = site.data.repos | sort: 'name' %}
 
 {% for repo in sorted_repos %}
-## [{{ repo.name }}]({{ repo.html_url }})
+## {{ repo.name }}
 
 {{ repo.description }}
 
 Language: {{ repo.language }}
+
+{% if repo.homepage != nil and repo.homepage != "" %}* [Visit homepage]({{ repo.homepage }}){% endif %}
+* [Git repository]({{ repo.html_url }})
 {% endfor %}
