@@ -4,7 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-{% for repo in site.data.repos %}
+{% assign sorted_repos = site.data.repos | sort: 'name' %}
+
+{% for repo in sorted_repos %}
 ## [{{ repo.name }}]({{ repo.html_url }})
 
 {{ repo.description }}
