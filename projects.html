@@ -16,7 +16,7 @@ permalink: /projects/
   <li><span class="meta-keyword">Git clone URL:</span> <code>{{ repo.clone_url }}</code></li>
 </ul>
 
-<ul class="project-links">
+<ul class="project-links wrap">
   {% if repo.homepage != nil and repo.homepage != "" %}<li><a href="{{ repo.homepage }}">Visit homepage</a></li>{% endif %}
   <li><a href="{{ repo.html_url }}">Git repository</a></li>
 </ul>

@@ -250,11 +250,34 @@ a:visited { color: #205caa; }
 .post ul,
 .post ol { margin-left: 1.35em; }
 
+.post-content .project-meta,
+.post-content .project-links {
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
 .post ul li,
 .post ol li { margin: 15px 0; }
 .post pre code {
   white-space: pre;
   border: none;
+}
+
+.post .project-meta li,
+.post .project-links li {
+  margin: 0;
+}
+
+.post .project-links li {
+  float: left;
+  margin-right: 20px;
+}
+
+.post .meta-keyword {
+  display: inline-block;
+  min-width: 15%;
+  margin-right: 20px;
 }
 /* terminal */
 .post pre.terminal {
