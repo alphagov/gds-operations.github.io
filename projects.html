@@ -7,18 +7,20 @@ permalink: /projects/
 {% assign sorted_repos = site.data.repos | sort: 'name' %}
 
 {% for repo in sorted_repos %}
-<h2 class="project-name">{{ repo.name }}</h2>
+<div class="project">
+  <h2 class="project-name">{{ repo.name }}</h2>
 
-<p class="project-description">{{ repo.description }}</p>
+  <p class="project-description">{{ repo.description }}</p>
 
-<ul class="project-links wrap">
-  {% if repo.homepage != nil and repo.homepage != "" %}<li><a href="{{ repo.homepage }}">Visit homepage</a></li>{% endif %}
-  <li><a href="{{ repo.html_url }}">Git repository</a></li>
-</ul>
+  <ul class="project-links wrap">
+    {% if repo.homepage != nil and repo.homepage != "" %}<li><a href="{{ repo.homepage }}">Visit homepage</a></li>{% endif %}
+    <li><a href="{{ repo.html_url }}">Git repository</a></li>
+  </ul>
 
-<ul class="project-meta">
-  <li><span class="meta-keyword">Language:</span> {{ repo.language }}</li>
-  <li><span class="meta-keyword">Git clone URL:</span> <code>{{ repo.clone_url }}</code></li>
-</ul>
+  <ul class="project-meta">
+    <li><span class="meta-keyword">Language:</span> {{ repo.language }}</li>
+    <li><span class="meta-keyword">Git clone URL:</span> <code>{{ repo.clone_url }}</code></li>
+  </ul>
+</div>
 
 {% endfor %}
