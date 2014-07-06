@@ -7,7 +7,7 @@ permalink: /projects/
 {% assign sorted_repos = site.data.repos | sort: 'name' %}
 
 {% for repo in sorted_repos %}
-<h2>{{ repo.name }}</h2>
+<h2 class="project-name">{{ repo.name }}</h2>
 
 {{ repo.description }}
 
