@@ -7,3 +7,9 @@ Run:
 ```bash
 bundle exec rake update_repo_data
 ```
+
+You will then need to commit the updated data into Git:
+
+```bash
+git commit _data/repos.yml
+```
