@@ -1,4 +1,4 @@
-# GDS operations open source web site
+# GDS open source web site
 
 ## How to update the list of projects and their data
 
