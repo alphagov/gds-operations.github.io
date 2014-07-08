@@ -11,3 +11,4 @@ twitter_username: gdsteam
 # Build settings
 markdown: redcarpet
 permalink: pretty
+exclude: [ "vendor/" ]
