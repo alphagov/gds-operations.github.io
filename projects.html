@@ -18,7 +18,10 @@ permalink: /projects/
   </ul>
 
   <ul class="project-meta">
-    <li><span class="meta-keyword">Language:</span> {{ repo.language }}</li>
+    <li>
+      <span class="meta-keyword">Language:</span>
+      {% if repo.name contains 'puppet-' ) %} Puppet {% else %} {{ repo.language }} {% endif %}
+    </li>
     <li><span class="meta-keyword">Git clone URL:</span> <code>{{ repo.clone_url }}</code></li>
   </ul>
 </div>
