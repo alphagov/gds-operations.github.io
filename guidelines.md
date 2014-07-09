@@ -17,7 +17,7 @@ Projects MUST:
 * include useful and informative commit messages about why a change was made
 * include a CHANGELOG as per https://metacpan.org/module/CPAN::Changes::Spec
 * include a valid Open Source LICENSE file as per http://opensource.org/licenses
-* provide a link to a public list of known issues and bugs 
+* provide a link to a public list of known issues and bugs
 * provide an email address to send security related bug reports to
 * provide a version number compatible with Semantic Versioning as per http://semver.org/spec/v2.0.0.html
 
