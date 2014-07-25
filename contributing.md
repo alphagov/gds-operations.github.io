@@ -18,9 +18,7 @@ If you feel it has been too long, then you are welcome to 'bump' the pull reques
 
 We also appreciate bug reports, and the process is similar. We will acknowledge the bug report within a few days and raise a story in our backlog to investigate it.
 
-However, unless it is an urgent security-related bug, it is likely to have a lower priority than a pull request, so it may take quite a while to get to the top of the list.
-
-We will look at it, but if it's an urgent issue for you, it might be worth thinking about raising a pull request. As noted in our contributing guidelines, we are very happy to help if you have questions about how to raise a PR.
+However it is likely to have a lower priority than a pull request, so it may take quite a while for us to investigate and fix it. If it's an urgent issue for you, it might be worth thinking about raising a pull request. As noted in our contributing guidelines, we are very happy to help if you have questions about how to raise a PR.
 
 ## Contacting us
 
