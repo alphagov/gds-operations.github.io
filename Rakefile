@@ -1,5 +1,7 @@
 require 'open-uri'
 
+task default: :update_repo_data
+
 task :update_repo_data do
   # FIXME: Use a +.json+ extension once https://github.com/jekyll/jekyll/pull/2369
   # is included in a Jekyll release
