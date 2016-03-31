@@ -9,6 +9,6 @@ github_user_id: 4703760
 twitter_username: gdsteam
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 exclude: [ "vendor/", "README.md" ]
