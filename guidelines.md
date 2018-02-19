@@ -19,7 +19,7 @@ Projects MUST:
 * include a valid Open Source LICENSE file (see [example](http://opensource.org/licenses))
 * provide a link to a public list of known issues and bugs
 * provide an email address to send security related bug reports to
-* provide a version number compatible with [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
+* provide a version number compatible with [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 
 Projects SHOULD:
 
@@ -30,5 +30,5 @@ Projects SHOULD:
 
 Projects MAY:
 
-* include a CONTRIBUTORS file (see [example](http://golang.org/CONTRIBUTORS))
+* include a CONTRIBUTORS file (see [example](https://golang.org/CONTRIBUTORS))
 * provide a mailing list for discussion of the project
