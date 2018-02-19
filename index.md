@@ -16,5 +16,5 @@ quality and utility.
 Each project aims to abide by our [open source guidelines](guidelines).
 
 Unless stated otherwise, all of our open source software is released under
-the [MIT licence](http://opensource.org/licenses/MIT) and is therefore free to
+the [MIT licence](https://opensource.org/licenses/MIT) and is therefore free to
 use. Contributions are appreciated and much encouraged.

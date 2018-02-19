@@ -26,7 +26,7 @@ We have two mailing lists about our Open Source tools.
 
 [A general list about our Open Source tools](https://groups.google.com/a/digital.cabinet-office.gov.uk/forum/?hl=en-GB#!forum/gds-operations-open-source)
 
-Specifically about our [vCloud Tools](http://gds-operations.github.io/vcloud-tools/) Ruby gems:
+Specifically about our [vCloud Tools](https://gds-operations.github.io/vcloud-tools/) Ruby gems:
 
 [vCloud Tools mailing list](https://groups.google.com/a/digital.cabinet-office.gov.uk/forum/#!forum/vcloud-tools)
 
