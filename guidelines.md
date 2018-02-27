@@ -16,7 +16,7 @@ Projects MUST:
 * include a README
 * include useful and informative commit messages about why a change was made
 * include a CHANGELOG (see [example](https://metacpan.org/module/CPAN::Changes::Spec))
-* include a valid Open Source LICENSE file (see [example](http://opensource.org/licenses))
+* include a valid Open Source LICENSE file ([GDS uses MIT](https://github.com/alphagov/styleguides/blob/master/licensing.md))
 * provide a link to a public list of known issues and bugs
 * provide an email address to send security related bug reports to
 * provide a version number compatible with [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
